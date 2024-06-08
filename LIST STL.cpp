@@ -16,6 +16,10 @@ int main (){
       list1.push_back(35);
        list1.push_back(36);
         list1.push_back(37);
+        list1.push_front(45);//? This push front pushes to the front
+        list1.pop_back();
+        list1.push_front(66);
+        list1.pop_front();//? This function pops from front
         list <int> ::iterator it =list1.begin();
         for ( it ; it!=list1.end();it++){
             cout<<*it<<endl; //? This is how you display Linked list using an iterator
