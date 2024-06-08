@@ -3,11 +3,11 @@
 using namespace std;
 vector <int> verycap;
 vector <int> vec1(10);
-vector <int> vec2(6,4) //? This will create a 6 membered vector with all elements as 4
+vector <int> vec2(6,4); //? This will create a 6 membered vector with all elements as 4
 void display(vector<int> &v )
 {
-    for ( int i=0 ;i<v.size();i++ ){
-        cout<<v[i]<<endl;
+    for( int i=0 ;i<v.size();i++ ){
+        cout<<v.at(i)<<endl;  //? Here we are using at operator to indicate the location of iterator of this  vector
     }
 }
 
